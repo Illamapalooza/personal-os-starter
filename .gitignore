@@ -1,0 +1,15 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+token*.json
+
+# Obsidian local state
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+
+# System files
+.DS_Store
