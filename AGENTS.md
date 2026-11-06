@@ -8,4 +8,6 @@ Before doing anything, read these, in order:
 3. OS/Context/project-registry.md — every project I'm working on
 4. Meta/Preferences.md — rules learned from my corrections. These override defaults.
 
+Before making anything other people will see (slides, prototypes, pages, posts), also read Taste/taste.md and follow it.
+
 If OS/Context/about-me.md still has [placeholders], suggest running the start skill.

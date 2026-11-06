@@ -14,6 +14,7 @@ It's built like an operating system, in layers:
 | **OS** | `OS/` | The brain: rules, who you are, your projects, the skills index, and a changelog |
 | **Skills** | `.agents/skills/` | The apps: things you repeat, written once as plain-English recipes |
 | **Meta** | `Meta/` | What the system learns: rules from your corrections, and patterns in your weeks |
+| **Taste** | `Taste/` | How you want things to look and sound. Slides and prototypes follow it |
 | **System** | `System/` | The manual for humans: how it all fits together |
 | **Data** | `Daily/`, `Projects/`, `Meetings/`, `Ideas/`, `Builds/`, `Inbox/`, `Tasks.md` | Your actual work |
 
@@ -89,6 +90,8 @@ Then type `/reflect`. It saves the rule to `Meta/Preferences.md`, so you won't h
 | `daily-open` | Plans your day from your tasks, projects, notes, and ideas |
 | `daily-close` | Records what got done and what carries over |
 | `weekly-review` | Looks back on your week and sets next week's focus |
+| `taste` | Learns your design taste from a link, screenshot, or description |
+| `slides` | Builds an HTML slide deck that follows your taste |
 | `reflect` | Turns your corrections into lasting rules in `Meta/` |
 | `learn` | Finds patterns in your week and suggests new skills |
 

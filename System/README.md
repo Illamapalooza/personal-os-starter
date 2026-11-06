@@ -14,6 +14,7 @@ The manual for humans. The agent doesn't need this file; you do.
 │ .agents/    the skills themselves                  │
 ├────────────────────────────────────────────────────┤
 │ Meta/       learning: preferences, patterns        │
+│ Taste/      how things should look and sound       │
 ├────────────────────────────────────────────────────┤
 │ Data        Daily/ Projects/ Meetings/ Ideas/      │
 │             Builds/ Inbox/ Tasks.md                │
@@ -31,6 +32,7 @@ The manual for humans. The agent doesn't need this file; you do.
 
 - **You correct it** → `reflect` writes a rule to `Meta/Preferences.md` → every skill follows it from then on
 - **You use it for a week** → `learn` reads your notes, writes `Meta/Patterns.md`, and suggests new skills in `Meta/Optimizations.md`
+- **You share a design you like** → `taste` turns it into principles in `Taste/taste.md` → every slide deck and prototype follows them
 - **You add a skill** → it's logged in `OS/CHANGELOG.md` and listed in `OS/Skills/Skills-Index.md`
 
 ## The one rule

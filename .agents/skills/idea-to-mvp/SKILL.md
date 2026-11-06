@@ -12,7 +12,7 @@ description: Turns an idea note into a one-page spec and a small working prototy
 4. Build Builds/<slug>/index.html as a single file:
    - Inline CSS and JavaScript. No installs, no frameworks, no build step.
    - No external requests, so it works offline. Include realistic sample data.
-   - Clean, modern design that works on a laptop screen.
+   - Follow Taste/taste.md for colors, fonts, layout, and tone. If it's still [placeholders], use a clean, modern design.
 5. Open it in the browser and check that each of the 3 features works. Fix anything broken. If you can't open a browser, tell me to open the file myself.
 6. Create Projects/<Idea Name>.md with one line on what it is, "Status: prototype", a next step, and links to the spec and the build. Add a row to OS/Context/project-registry.md. Add a link to the project in the idea note.
 7. Reply in 3 lines: what you built, where it lives, and the next step.

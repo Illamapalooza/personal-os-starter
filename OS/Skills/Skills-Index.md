@@ -12,5 +12,7 @@ Every skill in `.agents/skills/`. Run one with `/<name>`, or say "use the <name>
 | `daily-close` | Records what got done and what carries over | `Daily/`, `Tasks.md`, `Projects/` |
 | `weekly-review` | Looks back on the week and sets next week's focus | `Daily/` |
 | `idea-to-mvp` | Turns an idea into a spec and a working prototype | `Builds/`, `Projects/` |
+| `taste` | Learns your design taste from a link, screenshot, or description | `Taste/` |
+| `slides` | Builds an HTML slide deck that follows your taste | `Builds/` |
 | `reflect` | Turns a correction into a lasting rule | `Meta/Preferences.md` |
 | `learn` | Finds patterns in your week and suggests improvements | `Meta/Patterns.md`, `Meta/Optimizations.md` |
