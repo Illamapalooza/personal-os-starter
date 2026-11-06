@@ -2,7 +2,7 @@
 name: meeting-notes
 description: Turns a messy meeting transcript or rough notes into clean notes, and updates the project and my tasks. Use when I share a meeting transcript, call notes, or ask to process a meeting.
 ---
-1. Identify which project the meeting is about. Match it to a note in Projects/. Ask if it isn't clear. If no note exists, create one.
+1. Identify which project the meeting is about. Match it to OS/Context/project-registry.md. Ask if it isn't clear. If it's a new project, create its note in Projects/ and add it to the registry.
 2. Save Meetings/YYYY-MM-DD-<project>.md with:
    - Summary in 3 sentences
    - Decisions made

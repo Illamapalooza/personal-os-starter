@@ -2,7 +2,7 @@
 name: switch
 description: Catches me up on a project so I can pick it back up fast. Use when I say switch to a project, catch me up, or ask where I left off.
 ---
-1. Find the project in Projects/. If the name is unclear, list my projects and ask.
+1. Find the project in OS/Context/project-registry.md. If the name is unclear, list my projects and ask.
 2. Read the project note, its recent notes in Meetings/, its open items in Tasks.md, and any Daily/ notes that mention it.
 3. Reply with a short briefing:
    - Where I left off, in 2 lines

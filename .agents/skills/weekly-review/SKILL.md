@@ -2,7 +2,7 @@
 name: weekly-review
 description: Reviews my week and sets next week's focus. Use when I ask for a weekly review or to plan next week.
 ---
-1. Read this week's notes in Daily/, Tasks.md, Projects/, and Ideas/.
+1. Read this week's notes in Daily/, Tasks.md, OS/Context/project-registry.md, Projects/, Ideas/, and Meta/Patterns.md.
 2. Save to Daily/YYYY-MM-DD-weekly-review.md with:
    - 3 wins
    - What slipped, and why if my notes say so

@@ -6,11 +6,18 @@ It's made for [Google Antigravity](https://antigravity.google/) and [Obsidian](h
 
 ## How it works
 
-| Part | Where it lives | What it does |
+It's built like an operating system, in layers:
+
+| Layer | Where it lives | What it does |
 |---|---|---|
-| **Context** | `AGENTS.md` | Tells the agent who you are and how you work |
-| **Skills** | `.agents/skills/` | Teaches the agent the things you repeat |
-| **Notes** | Everything else | Gives the agent something to remember and connect |
+| **Boot** | `AGENTS.md` | Tells the agent what to read before doing anything |
+| **OS** | `OS/` | The brain: rules, who you are, your projects, the skills index, and a changelog |
+| **Skills** | `.agents/skills/` | The apps: things you repeat, written once as plain-English recipes |
+| **Meta** | `Meta/` | What the system learns: rules from your corrections, and patterns in your weeks |
+| **System** | `System/` | The manual for humans: how it all fits together |
+| **Data** | `Daily/`, `Projects/`, `Meetings/`, `Ideas/`, `Builds/`, `Inbox/`, `Tasks.md` | Your actual work |
+
+The key idea: **intelligence and data stay separate.** Skills read `OS/` and `Meta/`, and write to your data folders. Read `System/README.md` for the full picture.
 
 ## Set it up
 
@@ -36,13 +43,13 @@ Let the agent set you up. In the Antigravity App or the CLI (`agy`), type:
 
 If the slash command doesn't show up, type `Use the start skill` instead.
 
-It asks a few quick questions about you, fills in `AGENTS.md`, and creates a note for each of your projects. Then it asks about tasks you repeat and helps you build your first skill by doing one with you. Afterwards, start a new conversation and ask:
+It asks a few quick questions about you, fills in `OS/Context/about-me.md`, and registers each of your projects. Then it asks about tasks you repeat and helps you build your first skill by doing one with you. Afterwards, start a new conversation and ask:
 
 ```text
 What should I focus on today?
 ```
 
-Prefer to do it by hand? Edit `AGENTS.md` directly.
+Prefer to do it by hand? Edit `OS/Context/about-me.md` directly.
 
 ### 2. Teach it something you repeat
 
@@ -65,16 +72,16 @@ No task in mind? Try it on `Inbox/sample-meeting.txt`.
 Run your skill and tell it what to change:
 
 ```text
-That's too long. Add a rule to AGENTS.md to keep it shorter.
+That's too long. Keep it to 3 bullets.
 ```
 
-Now you won't have to say that again.
+Then type `/reflect`. It saves the rule to `Meta/Preferences.md`, so you won't have to say it again.
 
 ## Skills included
 
 | Skill | What it does |
 |---|---|
-| `start` | Sets up `AGENTS.md` and your projects, then helps you build your first skill |
+| `start` | Sets up your context and projects, then helps you build your first skill |
 | `capture` | Parks an idea or task, so you can get back to what you were doing |
 | `meeting-notes` | Turns a messy meeting into clean notes, and updates the project and your tasks |
 | `idea-to-mvp` | Turns an idea into a one-page spec and a working prototype |
@@ -82,7 +89,8 @@ Now you won't have to say that again.
 | `daily-open` | Plans your day from your tasks, projects, notes, and ideas |
 | `daily-close` | Records what got done and what carries over |
 | `weekly-review` | Looks back on your week and sets next week's focus |
-| `reflect` | Turns your corrections into lasting rules |
+| `reflect` | Turns your corrections into lasting rules in `Meta/` |
+| `learn` | Finds patterns in your week and suggests new skills |
 
 Change them, delete them, or add your own. They're only markdown.
 

@@ -1,28 +1,11 @@
-# About me
-<!-- Replace this with who you are. -->
-I'm [your name], a [student, developer, or other role] in [your city].
+# Boot
 
-# My goals right now
-<!-- Keep it to 3 goals, so the agent can prioritize. -->
-1. [Goal 1]
-2. [Goal 2]
-3. [Something you want to make time for]
+This folder is my personal operating system. You are its agent.
 
-# How I work
-<!-- The more honest this is, the more useful the agent becomes. -->
-- I focus best [when].
-- When I'm stuck, [how you like things explained].
+Before doing anything, read these, in order:
+1. OS/Rules/system-rules.md — how this system works and the rules you follow
+2. OS/Context/about-me.md — who I am, my goals, how I work
+3. OS/Context/project-registry.md — every project I'm working on
+4. Meta/Preferences.md — rules learned from my corrections. These override defaults.
 
-# How this vault works
-- Daily plans go in Daily/YYYY-MM-DD.md
-- Tasks live in Tasks.md
-- Each project has a status note in Projects/
-- Meeting notes go in Meetings/YYYY-MM-DD-<project>.md
-- New ideas go in Ideas/
-- Prototypes go in Builds/<idea>/
-- Unprocessed files go in Inbox/
-- Use [[wikilinks]] to connect related notes
-- Don't invent facts. If something isn't in my notes, say so
-
-# Preferences
-<!-- The reflect skill adds rules here when you correct the agent. -->
+If OS/Context/about-me.md still has [placeholders], suggest running the start skill.
