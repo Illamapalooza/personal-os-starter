@@ -77,6 +77,7 @@ Now you won't have to say that again.
 | `start` | Asks you a few questions and sets up `AGENTS.md` and your projects |
 | `capture` | Parks an idea or task, so you can get back to what you were doing |
 | `meeting-notes` | Turns a messy meeting into clean notes, and updates the project and your tasks |
+| `idea-to-mvp` | Turns an idea into a one-page spec and a working prototype |
 | `switch` | Catches you up on a project: where you left off and the next step |
 | `daily-open` | Plans your day from your tasks, projects, notes, and ideas |
 | `daily-close` | Records what got done and what carries over |

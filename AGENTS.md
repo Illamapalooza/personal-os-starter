@@ -19,6 +19,7 @@ I'm [your name], a [student, developer, or other role] in [your city].
 - Each project has a status note in Projects/
 - Meeting notes go in Meetings/YYYY-MM-DD-<project>.md
 - New ideas go in Ideas/
+- Prototypes go in Builds/<idea>/
 - Unprocessed files go in Inbox/
 - Use [[wikilinks]] to connect related notes
 - Don't invent facts. If something isn't in my notes, say so
