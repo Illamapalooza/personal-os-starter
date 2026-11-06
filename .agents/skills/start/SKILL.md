@@ -17,6 +17,7 @@ description: Sets up this personal OS for a new user by asking a few questions, 
    - One line on what it is
    - Status: just started
    - Next step: [add one]
+   - GitHub: owner/repo, only if I mentioned a repo for it
 6. If Projects/Example-Project.md still exists and I named at least one project, delete it.
 7. Add any deadlines I mentioned to Tasks.md.
 8. Show me a short summary of what you set up, then ask: "Want me to plan your day now?" If I say yes, use the daily-open skill.
