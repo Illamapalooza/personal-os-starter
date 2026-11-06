@@ -28,13 +28,13 @@ It's made for [Google Antigravity](https://antigravity.google/) and [Obsidian](h
 
 ### 1. Make it yours
 
-Let the agent set you up. In the agent panel, type:
+Let the agent set you up. In the Antigravity App or the CLI (`agy`), type:
 
 ```text
-Use the start skill
+/start
 ```
 
-In the CLI (`agy`), you can type `/start` instead.
+If the slash command doesn't show up, type `Use the start skill` instead.
 
 It asks you 5 quick questions, fills in `AGENTS.md`, and creates a note for each of your projects. Then start a new conversation and ask:
 
