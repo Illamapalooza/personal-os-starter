@@ -36,7 +36,7 @@ Let the agent set you up. In the Antigravity App or the CLI (`agy`), type:
 
 If the slash command doesn't show up, type `Use the start skill` instead.
 
-It asks you 5 quick questions, fills in `AGENTS.md`, and creates a note for each of your projects. Then start a new conversation and ask:
+It asks a few quick questions about you, fills in `AGENTS.md`, and creates a note for each of your projects. Then it asks about tasks you repeat and helps you build your first skill by doing one with you. Afterwards, start a new conversation and ask:
 
 ```text
 What should I focus on today?
@@ -74,7 +74,7 @@ Now you won't have to say that again.
 
 | Skill | What it does |
 |---|---|
-| `start` | Asks you a few questions and sets up `AGENTS.md` and your projects |
+| `start` | Sets up `AGENTS.md` and your projects, then helps you build your first skill |
 | `capture` | Parks an idea or task, so you can get back to what you were doing |
 | `meeting-notes` | Turns a messy meeting into clean notes, and updates the project and your tasks |
 | `idea-to-mvp` | Turns an idea into a one-page spec and a working prototype |
