@@ -46,7 +46,7 @@ Prefer to do it by hand? Edit `AGENTS.md` directly.
 
 ### 2. Teach it something you repeat
 
-Pick one task you do every week, such as class notes, meeting minutes, or a weekly plan. Do it once with the agent:
+Pick one task you do every week, such as meeting notes, a status update, or a weekly plan. Do it once with the agent:
 
 ```text
 Help me with this task: [paste your messy input]
@@ -58,7 +58,7 @@ When you like the result, save it:
 That worked. Save what you just did as a skill I can reuse.
 ```
 
-No task in mind? Try it on `Inbox/sample-lecture.txt`.
+No task in mind? Try it on `Inbox/sample-meeting.txt`.
 
 ### 3. Correct it once
 
@@ -76,8 +76,8 @@ Now you won't have to say that again.
 |---|---|
 | `start` | Asks you a few questions and sets up `AGENTS.md` and your projects |
 | `capture` | Parks an idea or task, so you can get back to what you were doing |
-| `class-summary` | Turns a messy transcript or rough notes into a clean study note |
-| `study-prep` | Makes flashcards and a quiz from your notes |
+| `meeting-notes` | Turns a messy meeting into clean notes, and updates the project and your tasks |
+| `switch` | Catches you up on a project: where you left off and the next step |
 | `daily-open` | Plans your day from your tasks, projects, notes, and ideas |
 | `daily-close` | Records what got done and what carries over |
 | `weekly-review` | Looks back on your week and sets next week's focus |

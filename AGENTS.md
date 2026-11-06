@@ -14,12 +14,11 @@ I'm [your name], a [student, developer, or other role] in [your city].
 - When I'm stuck, [how you like things explained].
 
 # How this vault works
-- Class notes go in Classes/<course>/
 - Daily plans go in Daily/YYYY-MM-DD.md
 - Tasks live in Tasks.md
 - Each project has a status note in Projects/
+- Meeting notes go in Meetings/YYYY-MM-DD-<project>.md
 - New ideas go in Ideas/
-- Study material goes in Study/
 - Unprocessed files go in Inbox/
 - Use [[wikilinks]] to connect related notes
 - Don't invent facts. If something isn't in my notes, say so
