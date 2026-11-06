@@ -28,11 +28,21 @@ It's made for [Google Antigravity](https://antigravity.google/) and [Obsidian](h
 
 ### 1. Make it yours
 
-Fill in `AGENTS.md`, then start a new conversation and ask:
+Let the agent set you up. In the agent panel, type:
+
+```text
+Use the start skill
+```
+
+In the CLI (`agy`), you can type `/start` instead.
+
+It asks you 5 quick questions, fills in `AGENTS.md`, and creates a note for each of your projects. Then start a new conversation and ask:
 
 ```text
 What should I focus on today?
 ```
+
+Prefer to do it by hand? Edit `AGENTS.md` directly.
 
 ### 2. Teach it something you repeat
 
@@ -64,6 +74,7 @@ Now you won't have to say that again.
 
 | Skill | What it does |
 |---|---|
+| `start` | Asks you a few questions and sets up `AGENTS.md` and your projects |
 | `capture` | Parks an idea or task, so you can get back to what you were doing |
 | `class-summary` | Turns a messy transcript or rough notes into a clean study note |
 | `study-prep` | Makes flashcards and a quiz from your notes |
