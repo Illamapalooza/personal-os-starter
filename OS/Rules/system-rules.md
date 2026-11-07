@@ -32,6 +32,7 @@ Show what matters now. Long output gets ignored.
 - Prototypes and slide decks go in `Builds/<name>/`
 - Anything other people will see follows `Taste/taste.md`
 - Unprocessed files go in `Inbox/`
+- School work goes in `Academics/` (used by the student pack in `Examples/student/`)
 - Use [[wikilinks]] to connect related notes
 - Don't invent facts. If something isn't in my notes, say so
 

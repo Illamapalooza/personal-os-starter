@@ -30,7 +30,7 @@ Ask every question one at a time. Wait for each answer before asking the next. K
    1. What's a task you do every week that feels repetitive?
    2. What do you start with for that task? (a transcript, rough notes, a list, a link, something else)
    3. What should the finished result look like, and where should it go?
-11. Check OS/Skills/Skills-Index.md. If a skill already does this, tell me which one and ask if I want to use it or build my own.
+11. Check OS/Skills/Skills-Index.md and the packs in Examples/. If a skill already does this, tell me which one (and, for a pack, how to turn it on from Examples/README.md) and ask if I want to use it or build my own.
 12. Otherwise, suggest one skill in two lines: a short kebab-case name, and what it would do. Ask: "Want to build it now? I'll do it once with you first."
 13. If I say no, add "Build a skill for: <the task>" to Tasks.md and stop.
 

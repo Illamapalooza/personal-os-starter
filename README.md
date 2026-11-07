@@ -97,6 +97,16 @@ Then type `/reflect`. It saves the rule to `Meta/Preferences.md`, so you won't h
 
 Change them, delete them, or add your own. They're only markdown.
 
+## Example skill packs
+
+Students: there's a ready-made pack in `Examples/student/` with `class-summary`, `study-prep` (reviewers, flashcards, practice tests), and `thesis`. Turn it on with:
+
+```bash
+cp -R Examples/student/*/ .agents/skills/
+```
+
+See `Examples/README.md` for details.
+
 ## Keep it safe
 
 - **Keep secrets out.** Don't put passwords, API keys, or sensitive personal data in this folder. The agent can read what's here and may send it to its model.
